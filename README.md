@@ -17,7 +17,7 @@ prices before they go shopping or selling.
 - **SQLite** — lightweight embedded database (no external DB service needed)
 - **Gunicorn** — production WSGI server
 - **Docker** — containerization
-- Deployed on **[Render / Railway — fill in once deployed]**
+- Deployed on **Render**
 
 ## Live demo
 
