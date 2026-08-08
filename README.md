@@ -21,7 +21,7 @@ prices before they go shopping or selling.
 
 ## Live demo
 
-🔗 `https://<your-deployed-url>.onrender.com` — *(update after deployment)*
+🔗 `https://local-market-price-checker.onrender.com` — *(update after deployment)*
 
 ## API Endpoints
 
@@ -92,13 +92,13 @@ The API will be available at `http://localhost:5000`.
 Build the image:
 
 ```bash
-docker build -t market-price-checker .
+docker build -t localmarket-price-checker .
 ```
 
 Run the container:
 
 ```bash
-docker run -p 5000:5000 market-price-checker
+docker run -p 5000:5000 local-market-price-checker
 ```
 
 The API will be available at `http://localhost:5000`.
@@ -108,16 +108,16 @@ The API will be available at `http://localhost:5000`.
 *(after you've pushed it — see below)*
 
 ```bash
-docker pull <your-dockerhub-username>/market-price-checker
-docker run -p 5000:5000 <your-dockerhub-username>/market-price-checker
+docker pull sybersarki/market-price-checker
+docker run -p 5000:5000 sybersarki/local-market-price-checker
 ```
 
 ## Pushing to Docker Hub
 
 ```bash
 docker login
-docker tag market-price-checker <your-dockerhub-username>/market-price-checker
-docker push <your-dockerhub-username>/market-price-checker
+docker tag local-market-price-checker sybersarki/local-market-price-checker
+docker push sybersarki/local-market-price-checker
 ```
 
 ## Deployment
