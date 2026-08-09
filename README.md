@@ -94,7 +94,7 @@ The API will be available at `http://localhost:5000`.
 Build the image:
 
 ```bash
-docker build -t localmarket-price-checker .
+docker build -t local-market-price-checker .
 ```
 
 Run the container:
@@ -110,7 +110,7 @@ The API will be available at `http://localhost:5000`.
 *(after you've pushed it — see below)*
 
 ```bash
-docker pull sybersarki/market-price-checker
+docker pull sybersarki/local-market-price-checker
 docker run -p 5000:5000 sybersarki/local-market-price-checker
 ```
 
