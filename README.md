@@ -22,7 +22,8 @@ prices before they go shopping or selling.
 ## Live demo
 
 🔗 `https://local-market-price-checker.onrender.com`
-🐳 **Docker Hub:** `https://hub.docker.com/repository/docker/sybersarki/local-market-price-checker/general` 
+
+🐳 **Docker Hub:** `https://hub.docker.com/repository/docker/sybersarki/local-market-price-checker/general`
 
 ## API Endpoints
 
